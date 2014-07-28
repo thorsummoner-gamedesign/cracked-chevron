@@ -1,0 +1,9 @@
+#!/c/Python27/python.exe
+#!/usr/bin/env python2.7
+
+from engine.window.window import window
+
+if '__main__' == __name__:
+	print('Hello world')
+	main_window = window()
+	main_window.main()
